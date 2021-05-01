@@ -1,0 +1,20 @@
+.todo {
+    margin-top:2rem;
+    border:2px solid black;
+    padding:1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    width:50vh;
+    /* justify-content: flex-start; */
+    /* flex-direction: flex-end; */
+    /* align-items: flex-end; */
+}
+.todo button{
+    color:white;
+    background-color:rgb(2, 0, 36);
+    border:none;
+    padding:0.6rem 1rem;
+}
+.todo > * {
+    margin-right: 2rem;
+}
