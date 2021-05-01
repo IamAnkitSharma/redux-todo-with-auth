@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  useLocation,
 } from "react-router-dom";
 import AddTodo from "./components/AddTodo/AddTodo";
 import Login from "./components/Auth/Login/Login";

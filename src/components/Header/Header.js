@@ -68,7 +68,7 @@ export default function Header() {
           </li>
         ) : (
           <li onClick={logoutHandler}>
-            <a href="#">Logout</a>
+            <Link >Logout</Link>
           </li>
         )}
       </ul>
